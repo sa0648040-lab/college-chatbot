@@ -1,0 +1,12 @@
+version: "3.1"
+intents:
+  - ask_exam_schedule
+  - ask_fees
+  - ask_admission
+responses:
+  utter_exam_schedule:
+    - text: "Exams start on Dec 10, 2025. Check college website."
+  utter_fees:
+    - text: "Hostel fees: ₹50,000/year. Pay online."
+  utter_admission:
+    - text: "Apply online at www.tdbcollege.ac.in/admissions"
