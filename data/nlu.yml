@@ -1,0 +1,16 @@
+version: "3.1"
+nlu:
+- intent: ask_exam_schedule
+  examples: |
+    - When are the exams?
+    - Exam kab hai?
+    - Exam dates?
+- intent: ask_fees
+  examples: |
+    - Fees kitna hai?
+    - Hostel fee?
+    - How to pay fees?
+- intent: ask_admission
+  examples: |
+    - Admission kaise hota hai?
+    - How to apply?
