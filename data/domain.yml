@@ -1,12 +1,50 @@
 version: "3.1"
 intents:
+  - greet
   - ask_exam_schedule
   - ask_fees
   - ask_admission
+  - ask_library
+  - ask_hostel
+  - ask_placement
+  - ask_contact
+  - ask_events
+  - ask_scholarship
+  - ask_academics
+
 responses:
-  utter_exam_schedule:
-    - text: "Exams start on Dec 10, 2025. Check college website."
-  utter_fees:
-    - text: "Hostel fees: ₹50,000/year. Pay online."
-  utter_admission:
-    - text: "Apply online at www.tdbcollege.ac.in/admissions"
+  utter_greet:
+    - text: "Hello! I'm the BITS Pilani Smart Chatbot. Ask me about exams, fees, admission, placements — anything! 😊"
+
+  utter_ask_exam_schedule:
+    - text: "Mid-semester exams are typically held from **December 10 to 18, 2025**. Check the student portal for the detailed timetable. Practice School has a separate schedule."
+
+  utter_ask_fees:
+    - text: "M.Tech semester fee is **₹2,05,000** (tuition + hostel + mess). Merit scholarships reduce it. Pay via BITS Pay portal before the deadline."
+
+  utter_ask_admission:
+    - text: "M.Tech admission is based on **BITSAT score**. Apply at **bitsadmission.com**. Last date: **May 30, 2026**. Eligibility: B.Tech with 60%+."
+
+  utter_ask_library:
+    - text: "Central Library is open **8 AM to 12 AM** (Monday to Sunday). You can issue up to 5 books for 15 days. Digital library access is available online."
+
+  utter_ask_hostel:
+    - text: "Hostel rooms are allotted on a first-come-first-served basis. Room change is allowed at the end of the semester. Mess menu changes weekly — check with the warden."
+
+  utter_ask_placement:
+    - text: "2024 placement stats: **Average ₹30 LPA**, **Highest ₹1 Cr+**. 90%+ M.Tech students placed. Top recruiters: Google, Microsoft, Goldman Sachs."
+
+  utter_ask_contact:
+    - text: "Admin Office: **01596-242210** | Registrar: **01596-242093** | HOD CSE: **cse@bits-pilani.ac.in** | Emergency: **01596-244090**"
+
+  utter_ask_events:
+    - text: "Oasis Cultural Fest: **October 2026** | Waves Tech Fest: **February 2026** | Sports Meet: **March 2026** | Convocation: **May 2026**"
+
+  utter_ask_scholarship:
+    - text: "Merit Scholarship: **15% fee waiver** for top 1% students. Need-based aid available. Apply at **scholarship@bits-pilani.ac.in**."
+
+  utter_ask_academics:
+    - text: "M.Tech CSE includes DS, AI, ML, DBMS. Course registration is online. CGPA = (Credits × Grade) / Total Credits. Minimum 75% attendance required."
+
+  utter_default:
+    - text: "Sorry, I don't know that yet. 😅\nTry asking about: **exams, fees, admission, library, hostel, placement, events, scholarship, academics**"
