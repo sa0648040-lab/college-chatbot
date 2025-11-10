@@ -14,7 +14,7 @@ responses = {
     "ask_events": ["Oasis Cultural Fest: **October 2026** | Waves Tech Fest: **February 2026** | Sports Meet: **March 2026** | Convocation: **May 2026**"],
     "ask_scholarship": ["Merit Scholarship: **15% fee waiver** for top 1% students. Need-based aid available. Apply at **scholarship@bits-pilani.ac.in**."],
     "ask_academics": ["M.Tech CSE includes DS, AI, ML, DBMS. Course registration is online. CGPA = (Credits × Grade) / Total Credits. Minimum 75% attendance required."],
-    "default": [""Oops, I don't have that info right now!\nBut I'm great with *exams, fees, placements, admission, hostel, library, events, or scholarships* — try one of those!"]
+    "default": ["Oops, I don't have that info right now!\nBut I'm great with *exams, fees, placements, admission, hostel, library, events, or scholarships* — try one of those!"]
 }
 
 # Streamlit App
