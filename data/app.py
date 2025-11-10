@@ -14,11 +14,11 @@ responses = {
     "ask_events": ["Oasis Cultural Fest: **October 2026** | Waves Tech Fest: **February 2026** | Sports Meet: **March 2026** | Convocation: **May 2026**"],
     "ask_scholarship": ["Merit Scholarship: **15% fee waiver** for top 1% students. Need-based aid available. Apply at **scholarship@bits-pilani.ac.in**."],
     "ask_academics": ["M.Tech CSE includes DS, AI, ML, DBMS. Course registration is online. CGPA = (Credits × Grade) / Total Credits. Minimum 75% attendance required."],
-    "default": ["Sorry, I don't know that yet. 😅\nTry asking about: **exams, fees, admission, library, hostel, placement, events, scholarship, academics**"]
+    "default": [""Oops, I don't have that info right now!\nBut I'm great with *exams, fees, placements, admission, hostel, library, events, or scholarships* — try one of those!"]
 }
 
 # Streamlit App
-st.set_page_config(page_title="BITS Pilani Chatbot", page_icon="🤖", layout="centered")
+st.set_page_config(page_title="BITS Pilani Chatbot", page_icon="", layout="centered")
 
 st.title("🤖 BITS Pilani Smart Chatbot")
 st.markdown("Ask anything — exams, fees, placements, events, and more!")
