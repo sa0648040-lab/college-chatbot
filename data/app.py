@@ -21,7 +21,7 @@ responses = {
 st.set_page_config(page_title="BITS Pilani Chatbot", page_icon="🤖", layout="centered")
 
 st.title("🤖 BITS Pilani Smart Chatbot")
-st.markdown("Ask anything in **English** — exams, fees, placements, events, and more!")
+st.markdown("Ask anything — exams, fees, placements, events, and more!")
 
 user_input = st.text_input("Your Question:", placeholder="e.g., When are mid-semester exams?")
 
