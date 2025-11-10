@@ -1,16 +1,139 @@
 version: "3.1"
 nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi there
+    - good morning
+    - hey
+    - what's up
+
 - intent: ask_exam_schedule
   examples: |
-    - When are the exams?
-    - Exam kab hai?
-    - Exam dates?
+    - when are the mid-semester exams
+    - what is the exam timetable
+    - when is the comprehensive exam
+    - quiz dates for this semester
+    - when does the practice school start
+    - end semester exam schedule
+    - when are the re-exams
+    - lab exam dates
+    - project submission deadline
+    - when is the last day of classes
+
 - intent: ask_fees
   examples: |
-    - Fees kitna hai?
-    - Hostel fee?
-    - How to pay fees?
+    - what is the tuition fee for M.Tech
+    - hostel and mess fee combined
+    - how much is the semester fee
+    - payment deadline for fees
+    - can I pay fees in installments
+    - what is the late fee penalty
+    - refund policy for fee withdrawal
+    - scholarship deduction in fee
+    - international student fee structure
+    - fee for dual degree program
+
 - intent: ask_admission
   examples: |
-    - Admission kaise hota hai?
-    - How to apply?
+    - how to apply for M.Tech admission
+    - what is the eligibility for M.Tech
+    - BITSAT cutoff for CSE
+    - application deadline for next year
+    - documents required for admission
+    - direct admission process
+    - NRI quota admission details
+    - transfer from another campus
+    - when will admission results be out
+    - how to check application status
+
+- intent: ask_library
+  examples: |
+    - what are the library working hours
+    - how many books can I issue
+    - online journal access from hostel
+    - how to renew a book
+    - fine for late return of books
+    - digital library login credentials
+    - study room booking process
+    - photocopy facility in library
+    - reference section access rules
+    - how to request a new book
+
+- intent: ask_hostel
+  examples: |
+    - how is hostel allotment done
+    - can I change my hostel room
+    - what is included in mess food
+    - guest stay policy in hostel
+    - laundry service availability
+    - curfew timing in hostel
+    - Wi-Fi speed in hostel rooms
+    - power backup in case of outage
+    - medical facility in hostel
+    - how to report maintenance issue
+
+- intent: ask_placement
+  examples: |
+    - what was the average placement package last year
+    - highest package offered in CSE
+    - which companies visit for M.Tech
+    - placement percentage for M.Tech
+    - internship opportunities in third semester
+    - alumni working at Google
+    - placement training program details
+    - resume building workshop dates
+    - mock interview sessions
+    - off-campus placement support
+
+- intent: ask_contact
+  examples: |
+    - contact number of admin office
+    - email of CSE department HOD
+    - emergency helpline number
+    - student welfare division contact
+    - international office email
+    - placement cell phone number
+    - registrar office extension
+    - health center contact
+    - security office number
+    - lost and found contact
+
+- intent: ask_events
+  examples: |
+    - when is Oasis cultural fest
+    - date of Waves technical fest
+    - sports meet schedule
+    - convocation ceremony date
+    - alumni reunion event
+    - entrepreneurship summit details
+    - hackathon registration link
+    - guest lecture series schedule
+    - annual day celebration
+    - freshers welcome party date
+
+- intent: ask_scholarship
+  examples: |
+    - types of scholarships available
+    - merit scholarship criteria
+    - how to apply for need-based aid
+    - scholarship renewal process
+    - topper scholarship amount
+    - sports scholarship eligibility
+    - research assistantship stipend
+    - teaching assistantship details
+    - external scholarship support
+    - deadline for scholarship form
+
+- intent: ask_academics
+  examples: |
+    - M.Tech CSE course curriculum
+    - how to register for elective courses
+    - credit requirements for degree
+    - CGPA calculation method
+    - grade improvement policy
+    - thesis submission guidelines
+    - project supervisor allotment
+    - attendance requirement per course
+    - academic calendar for current year
+    - how to drop a course
